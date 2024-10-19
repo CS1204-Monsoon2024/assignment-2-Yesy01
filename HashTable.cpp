@@ -7,7 +7,7 @@ private:
     std::vector<int> table;  // Hash table to store values
     int currentSize;         // Current number of elements
     int capacity;            // Current capacity of the hash table
-    const float loadFactorThreshold = 0.8; // Load factor threshold for resizing
+    float loadFactorThreshold = 0.8; // Load factor threshold for resizing
 
     // Helper function to check if a number is prime
     bool isPrime(int n) {
